@@ -12,8 +12,14 @@ camping_lists = ["tent", "sleeping bags", "water", "rasperry pi", "coffe", "knif
 
 camp_site = {"Crystal Lake" , 404, 89.3, True}
 
-camping_lists.extend(["bidet", "toilet paper"])
+#camping_lists.extend(["bidet", "toilet paper"])
+camping_lists.insert(-2, "toilet paper")
 
+camping_lists.insert(0, "bidet")
+
+#camping_lists.clear()
+#camping_lists.remove("toilet paper")
+camping_lists.pop(0)
 
 print(camping_lists)
 
